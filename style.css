@@ -28,6 +28,8 @@ h1{
 img{
     border: 3px solid yellow;
    border-radius: 50%;
+   width: 300px; 
+   height: 300px;
 }
 
 .about{
@@ -46,4 +48,86 @@ ul{
     font-family: "Merriweather Fallback", serif;
     color: azure;
     font-size: 22px;
+}
+
+@media screen and (max-width: 576px) {
+    body{
+        margin-top: 5px;
+        padding: 50px;
+        color: #05101b;
+        border: 1px solid rgb(0, 162, 255);
+        background: whitesmoke;
+    }
+    h1{
+        font-size: 30px;
+    }
+    .title-p{
+        font-weight: bold;
+        font-size: 25px;
+        margin-bottom: 15px;
+        padding-left: 20px;
+    }
+    .title-image{
+        height: 250px;
+        width: 250px;
+        border: 5px solid rgb(255, 255, 255);
+        border-radius: 100%;
+        background: #cc16c6;
+    }
+
+    img{
+       border: 3px solid yellow;
+       border-radius: 50%;
+       width: 200px;
+        height: 200px;
+
+    }
+    ul{
+        list-style: none;
+        font-size: 18px;
+        color: rgb(104, 67, 20);
+        line-height: 26px;
+    }
+    .quotes{
+        margin-top: 20px;
+        font-style: italic;
+        font-family: "Merriweather Fallback", serif;
+        color: rgba(0, 0, 255, 0.87);
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 780px) {
+    .title-image{
+        height: 250px;
+        width: 250px;
+        border: 5px solid rgb(255, 255, 255);
+        border-radius: 100%;
+        background: #cc16c6;
+        margin-left: 50px;
+        margin-top: 25px;
+    }
+
+    img{
+       border: 3px solid yellow;
+       border-radius: 50%;
+       width: 200px;
+        height: 200px;
+
+    }
+    h1{
+        font-size: 35px;
+    }
+    ul{
+        list-style: none;
+        font-size: 23px;
+        color: black;
+        line-height: 27px;
+    }
+    .quotes{
+        margin-top: 20px;
+        font-style: italic;
+        font-family: "Merriweather Fallback", serif;
+        color: rgba(229, 255, 0, 0.87);
+        font-size: 20px;
+    }
 }
